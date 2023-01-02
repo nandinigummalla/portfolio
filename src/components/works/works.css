@@ -1,0 +1,99 @@
+.works{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.works .slider{
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition:  all 1s ease-out;
+}
+.works .slider .container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works .slider .container .item{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works .slider .container .item .left{
+    flex: 4;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.works .slider .container .item .right{
+    flex: 8;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.works .slider .container .item .left .leftContainer{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.works .slider .container .item .left .leftContainer .imgContainer{
+    width: 80px;
+    height: 60px;
+    border-radius: 60%;
+    background-color: thistle;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.works .slider .container .item .left .leftContainer .imgContainer img{
+    width: 50px;
+}
+.works .slider .container .item .left .leftContainer h2{
+    font-size: 20px;
+}
+.works .slider .container .item .left .leftContainer p{
+    font-size: 13px;
+}
+.works .slider .container .item .left .leftContainer a{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+
+.works .slider .container .item .right img{
+    margin-top: 20%;
+    width: 500px;
+}
+
+.works .iconleft{
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    cursor: pointer;
+    left:100px;
+}
+.works .iconright{
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    cursor: pointer;
+    right: 100px;
+}

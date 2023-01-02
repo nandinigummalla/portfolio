@@ -1,0 +1,60 @@
+.intro{
+    background-color: white;
+    display: flex;
+}
+
+.intro .left{
+ flex: 0.5;
+ overflow: hidden;
+}
+
+.intro .left .imageContainer{
+    width: 800px;
+    height: 800px;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+.intro .left .imageContainer img{
+    height: 90%;
+    width: 90%;
+}
+.intro .right{
+   flex:0.5;
+   overflow: hidden;
+   position: relative;
+}
+.intro .right .wrapper{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    align-items: center;
+
+}
+
+.intro .right a .icon{
+    height: 10%;
+    width: 10%;
+    color: black;
+    margin-top: 15%;
+    margin-left: 40%;
+}
+
+.intro .right h1{
+    font-size: 50px;
+    margin: 10px 0;
+}
+.intro .right h2{
+    font-size: 35px;
+}
+
+.intro .right a{
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+  
+}

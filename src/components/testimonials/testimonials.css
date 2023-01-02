@@ -1,0 +1,81 @@
+.testimonials{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.testimonials .container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials .container .card{
+    background-color: white;
+    width: 250px;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -8px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    transition: all 1s ease;
+}
+.testimonials .container .card .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials .container .card .top img.left{
+  cursor: pointer;
+  height: 25px;
+}
+.testimonials .container .card .top img.right{
+    cursor: pointer;
+    height: 25px;
+  }
+  .testimonials .container .card .top img.user{
+    height: 60px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 30px;
+}
+
+.testimonials .container .card .center{
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(224, 215, 215);
+}
+
+.testimonials .container .card .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonials .container .card .bottom h3{
+ margin-bottom: 10px;
+}
+.testimonials .container .card .bottom h4{
+color: gray;
+}
+
+.testimonials .container .card.featured{
+    width: 300px;
+    height: 75%;
+    margin: 0 30px;
+}
+
+.testimonials .container .card.featured:hover{
+    transform: scale(1.2);
+}
