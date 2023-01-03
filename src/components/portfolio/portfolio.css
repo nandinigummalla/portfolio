@@ -59,3 +59,25 @@
     opacity: 0.2;
     z-index: 0;
 }
+
+@media (max-width: 768px){
+    .portfolio h1{
+        font-size: 20px;
+    }
+
+    .portfolio ul{
+        margin: 10px 0;
+        flex-wrap: wrap;
+        justify-content: center;      
+    }
+
+    .portfolio .container{
+        width: 100%;
+    }
+
+    .portfolio .container .item{
+        width: 150px;
+        height: 100px;
+    }
+    
+}
