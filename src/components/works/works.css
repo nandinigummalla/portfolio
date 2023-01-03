@@ -136,6 +136,8 @@
 
     .works .slider .container .item .left .leftContainer h2{
         font-size: 10px;
+        overflow: hidden;
+
     }
 
     .works .slider .container .item .left .leftContainer p{
