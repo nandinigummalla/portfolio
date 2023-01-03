@@ -1,8 +1,7 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './header.css'
 import PersonIcon from '@mui/icons-material/Person';
 import EmailIcon from '@mui/icons-material/Email';
-import  Menu  from '../menu/Menu';
 
 function Header({menuOpen,setMenuOpen}) {
   return (
