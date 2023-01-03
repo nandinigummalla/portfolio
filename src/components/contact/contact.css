@@ -63,3 +63,24 @@
     color: green;
 }
 
+@media (max-width: 768px){
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact .right form input{
+        width: 200px;
+        height: 20px;
+    }
+
+    .contact .right form textarea{
+        width: 200px;
+        height: 100px;
+    }
+
+    .contact .left img{
+        margin-left: 60px;
+    }
+}
+
+
