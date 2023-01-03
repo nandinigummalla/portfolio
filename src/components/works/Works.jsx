@@ -58,7 +58,7 @@ function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <a href="https://github.com/nandinigummalla" target="_blank"><span>Projects</span></a>
+                  <a href="https://github.com/nandinigummalla" target="_blank"  rel="noreferrer"><span>Projects</span></a>
                 </div>
               </div>
               <div className="right">
