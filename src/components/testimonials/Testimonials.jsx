@@ -8,7 +8,7 @@ function Testimonials() {
       name: "Nandini Gummalla",
       title: "Software Developer",
       img:
-        "assets/nand.jpg",
+        "assets/nandiniGummalla.jpg",
       icon: "assets/linkedin.png",
       desc:
         "Full Stack Developer with 2+ years of experience. Hands on experience in developing web applications and rest API's.",
@@ -22,13 +22,13 @@ function Testimonials() {
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
             <div className="top">
-            <a href="https://www.linkedin.com/in/nandini-gummalla-94957616a" target="_blank"><img src="assets/right-arrow.png" className="left" alt="" /></a>
+            <a href="https://www.linkedin.com/in/nandini-gummalla-94957616a" target="_blank"  rel="noreferrer"><img src="assets/right-arrow.png" className="left" alt="" /></a>
               <img
                 className="user"
                 src={d.img}
                 alt=""
               />
-              <a href="https://www.linkedin.com/in/nandini-gummalla-94957616a" target="_blank"><img className="right" src={d.icon} alt="" /></a>
+              <a href="https://www.linkedin.com/in/nandini-gummalla-94957616a" target="_blank"  rel="noreferrer"><img className="right" src={d.icon} alt="" /></a>
             </div>
             <div className="center">
               {d.desc}
