@@ -71,6 +71,7 @@
 
     .intro .left .imageContainer img{
         height: 50%;
+        width: 50%;
     }
 
     .intro .right .wrapper{
